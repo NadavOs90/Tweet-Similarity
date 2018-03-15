@@ -1,0 +1,8 @@
+Key - value : from mapper to reducer
+
+size: 293152924376
+count: 3502226177 befor the final step that calculates the topN for each tweet
+
+**we had a problem with log for the final step so we calculated that their should be 41148*41147 (the size of TinyCorpus is 41148)
+
+the count :3502226177 + 41148*41147 so in total < 5195342933 (we didnt take in mind the combiner because we not sure how much he will combine) 
